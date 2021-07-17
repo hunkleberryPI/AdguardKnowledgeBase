@@ -526,8 +526,10 @@ In "Family" mode, Protected + blocking adult content
 
 | Protocol       | Address                             |                |
 |----------------|-------------------------------------|----------------|
+| DNS-over-QUIC | Hostname: `quic://dot-fi.blahdns.com:784` |
 | DNS-over-TLS, IPv4 | Hostname: `tls://dot-fi.blahdns.com`  IP: `95.216.212.177` | <a href="sdns://AwAAAAAAAAAAAAAYdGxzOi8vZG90LWZpLmJsYWhkbnMuY29t">Add to AdGuard</a> |
-| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-fi.blahdns.com/dns-query` IP: `95.216.212.177` | <a href="sdns://AgMAAAAAAAAAAAASZG9oLWZpLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-fi.blahdns.com/dns-query` IP: `95.216.212.177` | <a href="sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv6 | Hostname: `https://doh-fi.blahdns.com/dns-query` IP: `2a01:4f9:c010:43ce::1` | <a href="sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
 | DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `95.216.212.177:8443`| <a href="sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
 | DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2a01:4f9:c010:43ce::1:8443`| <a href="sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
 
@@ -535,19 +537,44 @@ In "Family" mode, Protected + blocking adult content
 
 | Protocol       | Address                             |                |
 |----------------|-------------------------------------|----------------|
+| DNS-over-QUIC | Hostname: `quic://dot-jp.blahdns.com:784` |
 | DNS-over-TLS, IPv4 | Hostname: `tls://dot-jp.blahdns.com`  IP: `139.162.112.47` | <a href="sdns://AwMAAAAAAAAAAAASZG90LWpwLmJsYWhkbnMuY29t">Add to AdGuard</a> |
-| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-jp.blahdns.com/dns-query` | <a href="sdns://AgMAAAAAAAAAAAASZG9oLWpwLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk">Add to AdGuard</a> |
-| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `139.162.112.47:8443`| <a href="sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
-| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `[2400:8902::f03c:92ff:fe27:344b]:8443`| <a href="sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-jp.blahdns.com/dns-query` | <a href="sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv6 | Hostname: `https://doh-jp.blahdns.com/dns-query` | <a href="sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
+| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `139.162.112.47:8443`| <a href="sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2400:8902::f03c:92ff:fe27:344b:8443`| <a href="sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
 
 #### Germany DNS Server
 
 | Protocol       | Address                             |                |
 |----------------|-------------------------------------|----------------|
-| DNS-over-TLS, IPv4 | Hostname: `tls://dot-de.blahdns.com`  IP: `159.69.198.101` | <a href="sdns://AwAAAAAAAAAAAAASZG90LWRlLmJsYWhkbnMuY29t">Add to AdGuard</a> |
-| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-de.blahdns.com/dns-query` IP: `159.69.198.101`  | <a href="sdns://AgMAAAAAAAAADjE1OS42OS4xOTguMTAxABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
-| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `159.69.198.101:8443` | <a href="sdns://AQMAAAAAAAAAEzE1OS42OS4xOTguMTAxOjg0NDMgyJjbSS4IgTY_2KH3NVGG0DNIgBPzLEqf8r00nAbcUxQbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
-| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2a01:4f8:1c1c:6b4b::1:8443`| <a href="sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjZiNGI6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNS-over-QUIC | Hostname: `quic://dot-de.blahdns.com:784` |
+| DNS-over-TLS, IPv4 | Hostname: `tls://dot-de.blahdns.com`  IP: `78.46.244.143` | <a href="sdns://AwAAAAAAAAAAAAASZG90LWRlLmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-de.blahdns.com/dns-query` IP: `78.46.244.143`  | <a href="sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv6 | Hostname: `https://doh-de.blahdns.com/dns-query` IP: `2a01:4f8:c17:ec67::1`  | <a href="sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5">Add to AdGuard</a> |
+| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `78.46.244.143:8443` | <a href="sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20">Add to AdGuard</a> |
+| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2a01:4f8:1c1c:6b4b::1:8443`| <a href="sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20">Add to AdGuard</a> |
+
+#### Switzerland DNS Server
+
+| Protocol       | Address                             |                |
+|----------------|-------------------------------------|----------------|
+| DNS-over-TLS, IPv4 | Hostname: `tls://dot-ch.blahdns.com`  IP: `45.91.92.121` | <a href="sdns://AwAAAAAAAAAAAAASZG90LWRlLmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-ch.blahdns.com/dns-query` IP: `45.91.92.121`  | <a href="sdns://AgMAAAAAAAAAEDQ1LjkxLjkyLjEyMTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv6 | Hostname: `https://doh-ch.blahdns.com/dns-query` IP: `2a0e:dc0:6:23::2`  | <a href="sdns://AgMAAAAAAAAAFlsyYTBlOmRjMDo2OjIzOjoyXTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5">Add to AdGuard</a> |
+| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `45.91.92.121:8443` | <a href="sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ">Add to AdGuard</a> |
+| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2a0e:dc0:6:23::2:8443`| <a href="sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ">Add to AdGuard</a> |
+
+#### Singapore DNS Server
+
+| Protocol       | Address                             |                |
+|----------------|-------------------------------------|----------------|
+| DNS-over-QUIC | Hostname: `quic://dot-sg.blahdns.com:784` |
+| DNS-over-TLS, IPv4 | Hostname: `tls://dot-sg.blahdns.com`  IP: `192.53.175.149` | <a href="sdns://AwAAAAAAAAAAAAASZG90LWRlLmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv4 | Hostname: `https://doh-sg.blahdns.com/dns-query` IP: `192.53.175.149`  | <a href="sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
+| DNS-over-HTTPS, IPv6 | Hostname: `https://doh-sg.blahdns.com/dns-query` IP: `2400:8901::f03c:92ff:fe27:870a`  | <a href="sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ">Add to AdGuard</a> |
+| DNSCrypt, IPv4 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `192.53.175.149:8443` | <a href="sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
+| DNSCrypt, IPv6 | Provider: `2.dnscrypt-cert.blahdns.com` IP: `2400:8901::f03c:92ff:fe27:870a:8443`| <a href="sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t">Add to AdGuard</a> |
 
 <a name="snopyta-dns"></a>
 
